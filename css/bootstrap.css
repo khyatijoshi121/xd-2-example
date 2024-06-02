@@ -1,0 +1,766 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: #0864B1;
+    background-image:url("../images/Background\ Shape.png")
+}
+.navbar-nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+img{
+    width: 100%;
+}
+.main{
+    display: flex;
+    align-items: center; 
+}
+.head{    
+    font-family: 'bikobold';
+}
+.headh3{
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+}
+.links{
+    text-decoration: none;
+    font-family: 'bikoregular';
+}
+.texth2{
+    font-family: 'bikoblack';
+    font-size: 40px;
+}
+.textp{
+    font-family: 'bikoregular';
+    font-size: 22px;
+}
+.image{
+   width: 90%;
+}
+.aboutus{
+    padding-top: 50px;
+    text-align: center;
+}
+.heading{
+    font-size: 40px;
+    display: inline;
+    font-family: 'bikoblack';
+}
+.about{
+    padding: 40px;
+    font-size: 23px;
+    font-family: 'bikoregular';
+}
+.positive{
+    text-align: center;
+    font-family: 'bikobold';
+    position: relative;
+}
+.positive::after{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 70%;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: black;
+}
+.positive:last-child::after{
+     display: none;
+}
+.no{
+    font-size: 40px;
+}
+.data{
+    font-size: 25px;
+}
+.feature{
+    background-color: #F5F5F5;
+}
+.feacherheading{
+    display: inline;
+}
+.featuretext{
+    padding-top: 30px;
+    font-family: 'bikoblack';
+    color: #0864B1;
+    text-align: center;
+}
+.feacherdata{
+    padding: 35px;
+    text-align: center;
+}
+.lamp{
+    width: 20%;
+    background-color: #0864B1;
+}
+.evolutionimg{
+    width: 22%;
+    background-color: #0864B1;
+}
+.currencyimg{
+    width: 20%;
+    background-color: #0864B1;
+}
+.imgtext{
+    font-size: 20px;
+    font-family: 'bikoregular';
+}
+.newstext{
+    text-align: center;
+}
+.textheading{
+    display: inline;
+    font-family: 'bikoblack';
+    color: #0864B1;
+}
+.newsdata{
+   text-align: center;
+}
+.jurica{
+    box-shadow: 0px 0px 12px #0864B133 ;
+}
+.product{
+    box-shadow: 0px 0px 12px #0864B133 ;
+}
+.benjamin{
+    box-shadow: 0px 0px 12px #0864B133 ;
+}
+.newsimgtext{
+    font-size: 12px;
+}
+.swiper{
+    width: 100%;
+    height: 100%;
+    padding: 0 5px;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 12px #0864B133;
+}
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+.swipertext{
+    color: #676767;
+    font-family: 'bikoregular';
+    text-align: justify;
+}
+.swiper-pagination-bullet{
+    width: 60px;
+    border-radius: 0;
+    height: 10px;
+  }
+.read{
+      color: #0864B1;
+  }
+.fa-solid{
+    color: #0864B1;
+  }
+.readmore{
+    display: flex;
+    align-items: baseline;
+    gap: 15px;
+}
+.testimonials{
+    background-color: #F5F5F5;
+}
+ .testtext{
+    text-align: center;
+} 
+.testtexth2{
+    display: inline;
+    color: #0864B1;
+    font-family: 'bikoblack';
+}
+.testimonials .swiper{
+    padding: 0 60px;
+}
+.testimonials .swiper .swiper-slide{
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    align-items: normal;
+    box-shadow: none;
+}
+.testimonials .swiper .swiper-pagination{
+    display: none;
+}
+.swiper-button-next{
+    color: #67676726;
+}
+.swiper-button-prev{
+    color: #67676726;
+}
+.right{
+    text-align: right;
+}
+.swipertest{
+    color: #676767;
+    text-align: center;
+    font-family: 'bikoregular';
+    padding: 10px;
+}
+.swipertestp{
+    color: #0864B1;
+    font-family: 'bikobold';
+}
+ .left{
+    text-align: left;
+} 
+.newsletter{
+   background-color: #0864B1;
+   padding: 50px 0;
+}
+.newshead{
+    color: white;
+    font-size:75px ;
+    font-family: 'bikobold';
+}
+.newsinput{
+   text-align: center;
+}
+.newsbutton{
+    padding-top: 20px;
+}
+.text{
+    width: 50%;
+    height: 40px;
+    font-family: 'bikoregular';
+    color: #67676733;
+}
+.context{
+    width: 50%;
+    height: 40px;
+    color: #67676733;
+    font-family: 'bikoregular';
+}
+.btn{
+    width: 30%;
+    color: white;
+    font-family: 'bikobold';
+}
+.contactus{
+     background-color: #F5F5F5;
+     padding: 50px 0;
+}
+ .contactheading{
+    text-align: center;
+} 
+.contacth2{
+    display: inline;
+    font-family: 'bikoblack';
+    color: #0864B1;
+}
+.form{
+    padding-top: 40px;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+}
+.fomrlabel{
+    font-size: 20px;
+    color:#0864B1 ;
+    font-family: 'bikobold';
+}
+.formtext{
+    width: 100%;
+    border: none;
+    box-shadow: 2px 2px 6px #0864B133;
+    padding: 10px;
+}
+.msgformtext{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    box-shadow: 2px 2px 6px #0864B133;
+}
+.fills{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-content: space-around;
+    align-items: flex-start;
+}
+.filltext{
+    font-size: 24px;
+    color: #0864B1;
+    font-family:'bikobold';
+}
+.fillbtn{
+    width: 20%;
+    height: 40px;
+    background-color: #0864B1;
+    color: white;
+    box-shadow: 3px 4px 8px #0016534D;
+    border: none;
+}
+.footer{
+    background-color: #0864B1;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.tranding{
+    display: flex;
+    gap: 20px;
+}
+.trandinghead{
+    color: white;
+    font-family:'bikobold';
+    display: flex;
+    gap: 20px;
+}
+.connectlink{
+    gap: 30px;
+    color:#0864B1;
+}
+.fa-brands{
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 5px;
+}
+.trandh2{
+    font-size: 40px;
+    color: white;
+    font-family:'bikobold';
+}
+.trandp{
+    color: white;
+    font-family: 'bikoregular';
+}
+.tel{
+    font-size: 16px;
+}
+.copyright{
+    padding-top: 50px;
+    color: white;
+    font-family:'bikobold';
+}
+.connecttext{
+    font-size: 25px;
+    color: white;
+    font-family:'bikobold';
+}
+.connlink{
+    color: white;
+    font-family: 'bikoregular';
+}
+
+/* media query */
+@media (max-width:576.98px){
+    .header{
+        padding-bottom: 15px;
+    }
+    .navbar{
+        padding: 10px;
+    }
+    .headh3{
+         font-size: 22px;
+    }
+    .navbar-collapse{
+        font-size: 12px;
+    }
+    .main{
+        flex-direction: column;
+    }
+    .texth2{
+        padding-top: 30px;
+        font-size: 25px;
+    }
+    .textp{
+        font-size: 13px;
+    }
+    img{
+        width: 85%;
+    }
+    .image{
+        padding-top: 40%;
+    }
+    .aboutus{
+        padding-top: 20px;
+    }
+    .heading{
+        font-size: 30px;
+    }
+    .banner .row{
+            flex-direction: column;
+            align-items: center;
+    }
+    .about{
+        margin-top: 18px;
+        font-size: 14px;
+    }
+    .positive::after{
+        display: none;
+    }
+    .no{
+        font-size: 22px;
+    }
+    .data{
+        font-size: 15px;
+    }
+    .featuretext{
+        padding: 15px;
+    }
+    .feature .row{
+        flex-direction: column;
+        align-items: center;
+    }
+    .idea{
+        width: 63%;
+    }
+    .evolution{
+        width: 63%;
+    }
+    .currency{
+        width: 63%;
+    }
+    .lamp {
+        width: 25%;
+    }
+    .evolutionimg{
+        width: 26%;
+    }
+    .currencyimg{
+        width: 25%;
+    }
+    .imgtext{
+        font-size: 12px;
+    }
+    .swiper-pagination-bullet{
+        width: 20px;
+        height: 3px;
+    }
+    .swipertext{
+        font-size: 16px;
+    }
+    .swipertest{
+        font-size: 14px;
+    }
+    .swipertestp{
+        font-size: 14px;
+    }
+    .read{
+        font-size: 12px;
+    }
+    .testimonials .swiper{
+        padding: 0;
+    }
+    .text{
+        width: 100%;
+        height: 30px;
+        font-size: 13px;
+    }
+    .newshead{
+        font-size: 30px;
+    }
+    .connlink{
+        font-size: 5px;
+    }
+    .newsletter{
+        padding: 30px 0;
+    }
+    .newsbutton{
+        padding-top: 12px;
+    }
+    .btn{
+        width: auto;
+        font-size: 10px;
+    }
+    .contactus{
+        padding-top: 30px;
+    }
+    .contactus .row{
+        flex-direction: column;
+    }
+    .form{
+        padding: 20px 0;
+    }
+    .fills{
+        flex-direction: column;
+    }
+    .fomrlabel{
+        font-size: 14px;
+    }
+    .formtext{
+        width: 100%;
+        padding: 0;
+    }
+    .msgformtext{
+        padding:0;
+    }
+    .filltext{
+        font-size: 18px;
+    }
+    .fillbtn{
+        width: 40%;
+        font-size: 10px;
+    }
+    .footer .row{
+        flex-direction: column;
+    }
+    .tranding{
+        flex-direction: column;
+    }
+    .trandh2{
+        font-size: 22px;
+    }
+    .trandp{
+        font-size: 15px;
+    }
+    .tel{
+        font-size: 15px;
+    }
+    .fa-brands{
+        width: 20px;
+        height: 20px;
+        font-size: 13px;
+    }
+    .connecttext{
+        width: max-content;
+        font-size: 17px;
+    }
+    .connlink{
+        font-size: 13px;
+    }
+    .copyright{
+        font-size: 16px;
+    }
+}
+
+@media (min-width:577px) and  (max-width:768.98px){
+    .header{
+        padding-bottom: 20px;
+    }
+    .headh3{
+        font-size: 24px;
+    }
+    .links{
+        font-size: 15px;
+    }
+    .texth2{
+        font-size: 27px;
+    }
+    .textp {
+        font-size: 14px;
+    }
+    .image{
+        width: 60%;
+    }
+    .aboutus{
+        padding-top: 25px;
+    }
+    .heading{
+        font-size: 35px;
+    }
+    .about{
+        font-size: 18px;
+    }
+    .no{
+        font-size: 33px;
+    }
+    .data{
+        font-size: 20px;
+    }
+    .positive::after{
+        height: 60%;
+    }
+    .lamp{
+        width: 25%;
+    }
+    .evolutionimg {
+        width: 26%;
+    }
+    .currencyimg{
+        width: 25%;
+    }
+    .imgtext{
+        font-size: 15px;
+    }
+    .swipertext{
+        font-size: 16px;
+    }
+    .read{
+        font-size: 14px;
+    }
+    .swiper-pagination-bullet{
+        width: 25px;
+        height: 6px;
+    }
+    .swipertest{
+            font-size: 17px;
+    }
+    .swipertestp{
+        font-size: 17px;
+    }
+    .newshead{
+        font-size: 40px;
+    }
+    .text{
+        width: 70%;
+        height: 28px;
+        font-size: 14px;
+    }
+    .btn{
+        width: 45%;
+        font-size: 12px;
+    }
+    .contactus{
+        padding-top: 30px;
+    }
+    .fomrlabel{
+        font-size: 15px;
+    }
+    .formtext{
+            padding: 4px;
+    }
+    .filltext{
+        font: 19px;
+    }
+    .fillbtn{
+        font-size: 14px;
+        width: 30%;
+    }
+    .trandh2{
+        font-size: 23px;
+    }
+    .trandp{
+        font-size: 12px;
+    }
+    .tel {
+        font-size: 12px;
+    }
+    .connecttext {
+        font-size: 23px;
+    }
+    .fa-brands{
+        width: 25px;
+        height: 25px;
+    }
+    .connecttext {
+        width: 104%;
+        font-size: 10px;
+    }
+    .connlink{
+        font-size: 13px;
+    }
+    .copyright{
+        font-size: 11px;
+    }
+}
+@media (min-width:769px) and (max-width:992.98px) {
+    .header{
+        padding-bottom: 20px;
+    }
+    .texth2{
+        font-size: 33px;
+    }
+    .textp{
+        font-size: 19px;
+    }
+    .image{
+        width: 50%;
+    }
+    .aboutus{
+        padding-top: 38px;
+    }
+    .about{
+        font-size: 19px;
+        margin-top: 15px;
+    }
+    .no{
+        font-size: 33px;
+    }
+    .data{
+        font-size: 19px;
+    }
+    .positive::after{
+        height: 50%;
+    }
+    .featuretext{
+        padding-top: 20px;
+    }
+    .imgtext{
+        font-size: 17px;
+    }
+    .swipertext{
+        font-size: 16px;
+    }
+    .read{
+        font-size: 16px;
+    }
+    .swiper-pagination-bullet{
+        width: 35px;
+        height: 7px;
+    }
+    .swipertest{
+        font-size: 17px;
+    }
+    .swipertestp{
+        font-size: 17px;
+    }
+    .newshead{
+        font-size: 50px;
+    }
+    .text{
+        width: 70%;
+        height: 33px;
+        font-size: 16px;
+    }
+    .btn{
+        width: 40%;
+        font-size: 14px;
+    }
+    .contactus{
+        padding-top: 33px ;
+    }
+    .fomrlabel{
+        font-size: 18px;
+    }
+    .formtext{
+        padding: 4px;
+    }
+    .filltext{
+        font-size: 19px;
+    }
+    .fillbtn{
+        width: 22%;
+        font-size: 14px;
+    }
+    .trandh2{
+        font-size: 30px;
+    }
+    .connecttext{
+        font-size: 20px;
+    }
+    .fa-brands {
+        width: 25px;
+        height: 25px;
+    }
+    .copyright{
+        font-size: 14px;
+    }
+}
